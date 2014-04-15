@@ -1,0 +1,166 @@
+﻿<!--
+    Copyright 2014 Rich Abdill. Please leave this notice intact for modifications to the source.
+    This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="These words show up when you appear in search results. They make you sound WONDERFUL.">
+    <meta name="author" content="Your Name Here, Friend!">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>Your Name | Amateur Genius, Professional Lover</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'><!--   headline -->
+    <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css"> <!--    subhead -->
+    <link href='http://fonts.googleapis.com/css?family=Allan' rel='stylesheet' type='text/css'> <!--    body font   -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script type='text/javascript' src="js/bootstrap.min.js"></script>
+    <script type='text/javascript' src="js/custom.js"></script>
+
+</head>
+
+<body id="top">
+<div class="container" >
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div >
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <!--    feel free to change these—just find the element with the "id" element that matches the link, and add/remove as many as you want! -->
+            <li><a href="#top" class="scroll">Top</a></li>          
+            <li><a href="#about" class="scroll">About</a></li>
+            <li><a href="#stuff" class="scroll">Technical skills</a></li>
+            <li><a href="#projects" class="scroll">Projects</a></li>
+            <li><a href="#email" class="scroll">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <!--    end of navbar   -->
+    
+
+    <div class="jumbotron">
+            <h1>My name</h1>
+            <h2>And a little baby headline</h2>
+            <p >Here's where you do a quick thingy about how great you are. It could be anything you want, but probably keep it short.</p>
+            <a href="#email" class="btn btn-primary btn-lg scroll" >Email me <span class="glyphicon glyphicon-pencil"></span></a>   <!--   Glyphs all via glyphicons.com    -->
+    </div>
+
+    <div class="row centeredText">
+        <ul style="padding-left: 0;">   <!--    padding prevents list from being indented 15px off-center  -->
+            <li class="social-logo"><a href="http://www.twitter.com/USERNAME"><img src="img/somicro/twitter.png"></a></li>
+            <li class="social-logo"><a href="http://www.facebook.com/USERNAME"><img src="img/somicro/facebook.png"></a></li> 
+            <li class="social-logo"><a href="http://www.github.com/USERNAME"><img src="img/somicro/github.png" ></a></li>
+            <li class="social-logo"><a href="http://www.linkedin.com/in/USERNAME"><img src="img/somicro/linkedin.png"></a></li> 
+            <li class="social-logo"><a href="mailto:EMAILADDRESS"><img src="img/somicro/email.png"></a></li>
+                <!--    Look in /img/somicro for all kinds of icons courtesy of veodesign.com   -->
+        </ul>
+
+    </div>
+    
+    <div class="row info-section">
+        <div class="col-lg-12">
+        <h2 id="about">About me</h2>
+        <p>You can put stuff here to help people understand who you are. Whom you are?
+        Who you art? It doesn't matter! Just type stuff here! Or change the headline and make
+        it about some other thing. I'll never know.</p>
+        
+    <!-- start of skills table  -->
+        <h2 id="stuff">A fun table of my skills</h2>
+            <table class="table table-striped">
+                <thead>
+                    <th></th>
+                    <th>Header One</th>
+                    <th>Header Two</th>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><strong>Languages</strong></td>
+                    <td>PHP, HTML, CSS, Javascript, MSSQL, English</td>
+                    <td>MySQL, Groovy/Grails, HTML5, Python, Bootstrap</td>
+                </tr>
+                <tr>
+                    <td><strong>Content management systems</strong></td>
+                    <td>Wordpress, WikiMedia, MoveableType</td>
+                    <td>Joomla, Drupal</td>
+                </tr>
+                <tr>
+                    <td><strong>Software/SaaS</strong></td>
+                    <td>Google Analytics, Google Webmaster Tools, Jenkins app deployment, Nagios monitoring, Apache (with Tomcat),
+                    PuTTY, IIS, JIRA, Confluence</td>
+                    <td>Nginx web servers, MailChimp (email info-section), FileZilla</td>
+                </tr>
+                <tr>
+                    <td><strong>Operating systems</strong></td>
+                    <td>Windows (Vista, 7, 8, and Server 2008 R2), CentOS/RHEL</td>
+                    <td>Ubuntu Linux, ChromeOS, Mac OSX</td>
+                </tr>
+                <tr>
+                    <td><strong>Amazon Web Services</strong></td>
+                    <td>Elastic Compute Cloud (EC2), Elastic Beanstalk (including automated Java app deployment)</td>
+                    <td>Route 53 DNS, Relational Database Service (RDS), CloudWatch monitoring</td>
+                </tr>
+            </table>
+     <!-- end of skills table   -->       
+            
+            
+            
+          <h2 id="projects">Projects</h2>
+          <h3><span class="glyphicon glyphicon-ok" style="font-size: 17px;"></span> Neat Thing</h3>
+          <p>Sweet little tidbits about your project and how smart you are for having done it. There's all kinds of
+          stuff you can learn about a person from projects on a website!</p>
+          
+           <h3><span class="glyphicon glyphicon-ok" style="font-size: 17px;"></span> Another Thingy</h3>
+          <p>You could write projects on here all day! Or just do the two of them, and go watch TV.</p>
+        
+        <!--    start of email form -->
+        <!--    this form sends the data to a .php file, which sends an email to you.
+                    If your web server isn't running PHP and you don't want to (or can't) install it, just remove everything
+                    from "start email form" through "end email form". 
+                    Also, ***BE SURE TO EDIT email_form.php*** You can use a regular text editor; just look for the comments asking for data -->
+         <div >
+            <h2 id="email">Magic email form!</h2>
+                <p class="help-block">(You can also just send a message to YOUREMAIL@EMAIL.COM.)</p>
+                <form method="post" action="email_form.php" style="margin-right:10%; margin-left: 10%;">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input  type="text" class="form-control" name="name" maxlength="50">
+                    </div>
+                     <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input  type="text" class="form-control" name="email" maxlength="100">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea  name="message" class="form-control" maxlength="2000" cols="25" rows="6"></textarea>
+                    </div>
+                    <div >
+                        <p class="centeredText"><button type="submit" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-send"></span> Send</button></p>
+                    </div>
+                </form>
+            </div>
+            <!--    end email form   -->
+        </div>
+    </div><!-- end row-info-section -->
+
+      <div class="footer">
+        <p>&copy; 2014 You McYou</p>
+      </div>
+
+    </div> <!-- end container -->
+
+
+
+
+
+  </body>
+</html>
